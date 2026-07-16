@@ -1,0 +1,16 @@
+{"t": 1782157602.0535738, "env": 2, "ep": 1, "steps": 11681, "reward": -126.954, "phase": 0, "total_score": -144, "ending": 0, "truncated": false, "month": 1, "day": 8}
+{"t": 1782192299.0454965, "env": 2, "ep": 1, "steps": 980, "reward": -8.33, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782192604.210023, "env": 2, "ep": 1, "steps": 3000, "reward": 4.963, "total_score": -63, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782260669.055501, "env": 2, "ep": 1, "steps": 3000, "reward": -4.939, "total_score": -67, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782262958.3861253, "env": 2, "ep": 1, "steps": 3000, "reward": 15.16, "total_score": -22, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782263001.63769, "env": 2, "ep": 2, "steps": 3000, "reward": -14.83, "total_score": -88, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782263279.5948513, "env": 2, "ep": 3, "steps": 3000, "reward": -15.074, "total_score": -84, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782263309.1169615, "env": 2, "ep": 4, "steps": 3000, "reward": -4.837, "total_score": -57, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782263984.1542914, "env": 2, "ep": 1, "steps": 3000, "reward": 14.822, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782264086.8676176, "env": 2, "ep": 2, "steps": 3000, "reward": 67.809, "total_score": -90, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782264178.5372107, "env": 2, "ep": 3, "steps": 3000, "reward": 10.006, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782264268.6350546, "env": 2, "ep": 4, "steps": 3000, "reward": 10.508, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782264360.3603108, "env": 2, "ep": 5, "steps": 3000, "reward": 15.268, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782264453.9349418, "env": 2, "ep": 6, "steps": 3000, "reward": 10.552, "total_score": -8, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782265190.548217, "env": 2, "ep": 1, "steps": 3000, "reward": 32.781, "total_score": -51, "ending": 0, "truncated": true, "month": 1, "day": 10}
+{"t": 1782265329.853767, "env": 2, "ep": 2, "steps": 3000, "reward": 74.952, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}

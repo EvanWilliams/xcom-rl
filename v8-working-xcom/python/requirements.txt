@@ -1,0 +1,9 @@
+# xcom_bridge has no dependencies (pure ctypes + stdlib)
+
+# xcom_dashboard (FastAPI bridge relay)
+fastapi>=0.111
+uvicorn[standard]>=0.29
+websockets>=12
+
+# tests
+pytest>=8

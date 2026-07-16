@@ -1,0 +1,354 @@
+{"t": 1782157602.0535738, "env": 0, "ep": 1, "steps": 11681, "reward": -126.954, "phase": 0, "total_score": -144, "ending": 0, "truncated": false, "month": 1, "day": 8}
+{"t": 1782159667.5498629, "env": 0, "ep": 2, "steps": 12422, "reward": 2685.732, "phase": 0, "total_score": -48, "ending": 0, "truncated": false, "month": 1, "day": 3}
+{"t": 1782159694.5482433, "env": 0, "ep": 3, "steps": 248, "reward": -12.48, "phase": 0, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782160024.8312778, "env": 0, "ep": 4, "steps": 2357, "reward": 476.413, "phase": 0, "total_score": -17, "ending": 0, "truncated": false, "month": 1, "day": 2}
+{"t": 1782170600.9427116, "env": 0, "ep": 1, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -45, "ending": 0, "truncated": false, "month": 1, "day": 2}
+{"t": 1782170612.9372165, "env": 0, "ep": 6, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -80, "ending": 0, "truncated": false, "month": 1, "day": 8}
+{"t": 1782170614.167723, "env": 0, "ep": 7, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -191, "ending": 0, "truncated": false, "month": 1, "day": 21}
+{"t": 1782170625.2597778, "env": 0, "ep": 12, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -3, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782170627.0373914, "env": 0, "ep": 13, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -56, "ending": 0, "truncated": false, "month": 2, "day": 2}
+{"t": 1782170653.0632117, "env": 0, "ep": 23, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -207, "ending": 0, "truncated": false, "month": 1, "day": 20}
+{"t": 1782170660.5710125, "env": 0, "ep": 26, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -26, "ending": 0, "truncated": false, "month": 2, "day": 10}
+{"t": 1782170668.9255254, "env": 0, "ep": 30, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -3, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782170671.8835812, "env": 0, "ep": 32, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -44, "ending": 0, "truncated": false, "month": 1, "day": 4}
+{"t": 1782170673.6345022, "env": 0, "ep": 33, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -3, "ending": 0, "truncated": false, "month": 2, "day": 1}
+{"t": 1782170675.9578292, "env": 0, "ep": 34, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -48, "ending": 0, "truncated": false, "month": 2, "day": 12}
+{"t": 1782170689.8766732, "env": 0, "ep": 40, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -90, "ending": 0, "truncated": false, "month": 1, "day": 7}
+{"t": 1782170704.1761801, "env": 0, "ep": 46, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -8, "ending": 0, "truncated": false, "month": 1, "day": 2}
+{"t": 1782170707.0296712, "env": 0, "ep": 48, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -13, "ending": 0, "truncated": false, "month": 1, "day": 2}
+{"t": 1782170713.1454315, "env": 0, "ep": 51, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -61, "ending": 0, "truncated": false, "month": 1, "day": 11}
+{"t": 1782170733.6701376, "env": 0, "ep": 59, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -17, "ending": 0, "truncated": false, "month": 1, "day": 11}
+{"t": 1782170736.0482075, "env": 0, "ep": 60, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -73, "ending": 0, "truncated": false, "month": 2, "day": 13}
+{"t": 1782170736.847587, "env": 0, "ep": 61, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -185, "ending": 0, "truncated": false, "month": 1, "day": 14}
+{"t": 1782170775.3508165, "env": 0, "ep": 75, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -39, "ending": 0, "truncated": false, "month": 2, "day": 2}
+{"t": 1782170777.9261577, "env": 0, "ep": 76, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -162, "ending": 0, "truncated": false, "month": 2, "day": 14}
+{"t": 1782170781.3559587, "env": 0, "ep": 78, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -61, "ending": 0, "truncated": false, "month": 1, "day": 10}
+{"t": 1782170792.005034, "env": 0, "ep": 82, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -92, "ending": 0, "truncated": false, "month": 2, "day": 10}
+{"t": 1782170794.072688, "env": 0, "ep": 83, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -52, "ending": 0, "truncated": false, "month": 2, "day": 6}
+{"t": 1782170797.5395145, "env": 0, "ep": 85, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -119, "ending": 0, "truncated": false, "month": 1, "day": 14}
+{"t": 1782170798.8566937, "env": 0, "ep": 86, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -82, "ending": 0, "truncated": false, "month": 1, "day": 24}
+{"t": 1782170801.0264344, "env": 0, "ep": 87, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -56, "ending": 0, "truncated": false, "month": 2, "day": 9}
+{"t": 1782170816.9035523, "env": 0, "ep": 93, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -18, "ending": 0, "truncated": false, "month": 2, "day": 7}
+{"t": 1782170824.6542885, "env": 0, "ep": 96, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -87, "ending": 0, "truncated": false, "month": 2, "day": 10}
+{"t": 1782170835.149831, "env": 0, "ep": 100, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -75, "ending": 0, "truncated": false, "month": 2, "day": 11}
+{"t": 1782170835.5679402, "env": 0, "ep": 101, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -49, "ending": 0, "truncated": false, "month": 1, "day": 7}
+{"t": 1782170838.7641149, "env": 0, "ep": 103, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -136, "ending": 0, "truncated": false, "month": 1, "day": 8}
+{"t": 1782170839.5883603, "env": 0, "ep": 104, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -191, "ending": 0, "truncated": false, "month": 1, "day": 15}
+{"t": 1782170839.9419703, "env": 0, "ep": 105, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -57, "ending": 0, "truncated": false, "month": 1, "day": 6}
+{"t": 1782170841.7196622, "env": 0, "ep": 106, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -10, "ending": 0, "truncated": false, "month": 2, "day": 1}
+{"t": 1782170845.2018402, "env": 0, "ep": 108, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -142, "ending": 0, "truncated": false, "month": 1, "day": 12}
+{"t": 1782170852.3706155, "env": 0, "ep": 111, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -11, "ending": 0, "truncated": false, "month": 2, "day": 1}
+{"t": 1782170866.532723, "env": 0, "ep": 117, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -110, "ending": 0, "truncated": false, "month": 1, "day": 10}
+{"t": 1782170872.255737, "env": 0, "ep": 120, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -1, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782170879.969193, "env": 0, "ep": 123, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -89, "ending": 0, "truncated": false, "month": 2, "day": 11}
+{"t": 1782170888.298063, "env": 0, "ep": 127, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -2, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782170899.3943102, "env": 0, "ep": 131, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -108, "ending": 0, "truncated": false, "month": 2, "day": 11}
+{"t": 1782170916.866909, "env": 0, "ep": 138, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -157, "ending": 0, "truncated": false, "month": 1, "day": 19}
+{"t": 1782170918.6209362, "env": 0, "ep": 139, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -1, "ending": 0, "truncated": false, "month": 2, "day": 1}
+{"t": 1782170919.2316182, "env": 0, "ep": 140, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -61, "ending": 0, "truncated": false, "month": 1, "day": 11}
+{"t": 1782170929.9540656, "env": 0, "ep": 144, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -106, "ending": 0, "truncated": false, "month": 2, "day": 13}
+{"t": 1782170939.8181431, "env": 0, "ep": 148, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -2, "ending": 0, "truncated": false, "month": 2, "day": 1}
+{"t": 1782170964.7525318, "env": 0, "ep": 158, "steps": 1, "reward": 49.99, "phase": 2, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782170964.8785675, "env": 0, "ep": 159, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -7, "ending": 0, "truncated": false, "month": 1, "day": 2}
+{"t": 1782170972.9967537, "env": 0, "ep": 162, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -84, "ending": 0, "truncated": false, "month": 2, "day": 11}
+{"t": 1782170997.9995809, "env": 0, "ep": 171, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -60, "ending": 0, "truncated": false, "month": 2, "day": 5}
+{"t": 1782170998.5153658, "env": 0, "ep": 172, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -144, "ending": 0, "truncated": false, "month": 1, "day": 9}
+{"t": 1782171012.5158951, "env": 0, "ep": 178, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -1, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782171013.5898707, "env": 0, "ep": 179, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -18, "ending": 0, "truncated": false, "month": 1, "day": 20}
+{"t": 1782171027.6733944, "env": 0, "ep": 185, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -44, "ending": 0, "truncated": false, "month": 1, "day": 2}
+{"t": 1782171030.9687972, "env": 0, "ep": 187, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -62, "ending": 0, "truncated": false, "month": 1, "day": 8}
+{"t": 1782171045.8921773, "env": 0, "ep": 193, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -104, "ending": 0, "truncated": false, "month": 1, "day": 9}
+{"t": 1782171054.4360244, "env": 0, "ep": 197, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -3, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782171059.571713, "env": 0, "ep": 199, "steps": 1, "reward": 49.99, "phase": 2, "total_score": -136, "ending": 0, "truncated": false, "month": 2, "day": 13}
+{"t": 1782171073.063664, "env": 0, "ep": 1, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171073.8045475, "env": 0, "ep": 2, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171074.5446627, "env": 0, "ep": 3, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171075.284552, "env": 0, "ep": 4, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171076.0245879, "env": 0, "ep": 5, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171076.7787566, "env": 0, "ep": 6, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171077.5225782, "env": 0, "ep": 7, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171078.27146, "env": 0, "ep": 8, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171079.0223186, "env": 0, "ep": 9, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171079.771641, "env": 0, "ep": 10, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171080.5255356, "env": 0, "ep": 11, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171081.272008, "env": 0, "ep": 12, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171082.0211093, "env": 0, "ep": 13, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171082.7634792, "env": 0, "ep": 14, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171083.5076284, "env": 0, "ep": 15, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171084.2496886, "env": 0, "ep": 16, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171084.9930577, "env": 0, "ep": 17, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171085.7313313, "env": 0, "ep": 18, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171086.4712164, "env": 0, "ep": 19, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782171087.2066278, "env": 0, "ep": 20, "steps": 100, "reward": -1.0, "phase": 0, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782178822.4700246, "env": 0, "ep": 1, "steps": 19, "reward": -9.966, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782192579.9814117, "env": 0, "ep": 1, "steps": 1697, "reward": -88.14, "total_score": -131, "ending": 0, "truncated": false, "month": 1, "day": 15}
+{"t": 1782192617.8209448, "env": 0, "ep": 2, "steps": 1571, "reward": -1422.382, "total_score": -1451, "ending": 0, "truncated": false, "month": 2, "day": 22}
+{"t": 1782192658.6685166, "env": 0, "ep": 3, "steps": 1495, "reward": -1312.608, "total_score": -1403, "ending": 0, "truncated": false, "month": 2, "day": 20}
+{"t": 1782192668.920779, "env": 0, "ep": 4, "steps": 6, "reward": -100.988, "total_score": -91, "ending": 0, "truncated": false, "month": 1, "day": 3}
+{"t": 1782260669.0464978, "env": 0, "ep": 1, "steps": 3000, "reward": -1254.922, "total_score": -1318, "ending": 0, "truncated": true, "month": 2, "day": 20}
+{"t": 1782261322.6779547, "env": 0, "ep": 1, "steps": 1230, "reward": -1457.966, "total_score": -1494, "ending": 0, "truncated": false, "month": 2, "day": 28}
+{"t": 1782262958.380123, "env": 0, "ep": 1, "steps": 3000, "reward": -128.824, "total_score": -134, "ending": 0, "truncated": true, "month": 1, "day": 20}
+{"t": 1782263001.6336896, "env": 0, "ep": 2, "steps": 3000, "reward": -78.756, "total_score": -134, "ending": 0, "truncated": true, "month": 1, "day": 20}
+{"t": 1782263279.9034703, "env": 0, "ep": 3, "steps": 3000, "reward": -123.961, "total_score": -134, "ending": 0, "truncated": true, "month": 1, "day": 21}
+{"t": 1782263309.10996, "env": 0, "ep": 4, "steps": 3000, "reward": -40.796, "total_score": -46, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782263461.4738698, "env": 0, "ep": 5, "steps": 508, "reward": -143.15, "total_score": -134, "ending": 0, "truncated": false, "month": 1, "day": 22}
+{"t": 1782263637.9932525, "env": 0, "ep": 1, "steps": 500, "reward": 5.787, "total_score": -7, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782263711.7129073, "env": 0, "ep": 2, "steps": 500, "reward": 55.75, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782263984.1532915, "env": 0, "ep": 1, "steps": 3000, "reward": 23.908, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782264086.8676176, "env": 0, "ep": 2, "steps": 3000, "reward": 20.034, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782264178.5372107, "env": 0, "ep": 3, "steps": 3000, "reward": 10.018, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782264268.6320314, "env": 0, "ep": 4, "steps": 3000, "reward": -7.646, "total_score": -82, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782264360.3603108, "env": 0, "ep": 5, "steps": 3000, "reward": -18.752, "total_score": -31, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782264453.9349418, "env": 0, "ep": 6, "steps": 3000, "reward": 10.602, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782264548.2071002, "env": 0, "ep": 1, "steps": 300, "reward": 10.486, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782264570.2603946, "env": 0, "ep": 2, "steps": 300, "reward": 20.465, "total_score": -38, "ending": 0, "truncated": true, "month": 1, "day": 5}
+{"t": 1782264683.1544466, "env": 0, "ep": 3, "steps": 300, "reward": 10.45, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782264792.3415356, "env": 0, "ep": 4, "steps": 300, "reward": 0.498, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782264903.3660812, "env": 0, "ep": 5, "steps": 300, "reward": 5.488, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782265190.5512176, "env": 0, "ep": 1, "steps": 3000, "reward": 9.884, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782265329.853767, "env": 0, "ep": 2, "steps": 3000, "reward": 9.988, "total_score": -2, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782267944.418886, "env": 0, "ep": 1, "steps": 3000, "reward": 19.88, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782268008.534272, "env": 0, "ep": 2, "steps": 3000, "reward": 10.034, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782268072.7537456, "env": 0, "ep": 3, "steps": 3000, "reward": 10.18, "total_score": -6, "ending": 0, "truncated": true, "month": 1, "day": 5}
+{"t": 1782268138.500295, "env": 0, "ep": 4, "steps": 3000, "reward": 10.37, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782268205.1771488, "env": 0, "ep": 5, "steps": 3000, "reward": -38.001, "total_score": -49, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782268278.049954, "env": 0, "ep": 6, "steps": 3000, "reward": -89.052, "total_score": -115, "ending": 0, "truncated": true, "month": 1, "day": 9}
+{"t": 1782268342.440699, "env": 0, "ep": 7, "steps": 3000, "reward": -21.992, "total_score": -44, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782268405.6189027, "env": 0, "ep": 8, "steps": 3000, "reward": -21.314, "total_score": -31, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782268471.1021202, "env": 0, "ep": 9, "steps": 3000, "reward": 14.975, "total_score": -1, "ending": 0, "truncated": true, "month": 1, "day": 5}
+{"t": 1782268534.7382243, "env": 0, "ep": 10, "steps": 3000, "reward": 9.91, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782268602.0792668, "env": 0, "ep": 11, "steps": 3000, "reward": 10.164, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782268669.4376028, "env": 0, "ep": 12, "steps": 3000, "reward": 15.124, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782268742.6207712, "env": 0, "ep": 13, "steps": 3000, "reward": 67.01, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782268809.1304438, "env": 0, "ep": 14, "steps": 3000, "reward": -35.644, "total_score": -46, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782268876.986102, "env": 0, "ep": 15, "steps": 3000, "reward": -39.448, "total_score": -70, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782268951.4819834, "env": 0, "ep": 16, "steps": 3000, "reward": 14.932, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782269023.7343256, "env": 0, "ep": 17, "steps": 3000, "reward": 15.881, "total_score": -48, "ending": 0, "truncated": true, "month": 1, "day": 6}
+{"t": 1782269095.9620242, "env": 0, "ep": 18, "steps": 3000, "reward": 164.143, "total_score": -1, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782269173.084368, "env": 0, "ep": 19, "steps": 3000, "reward": 73.476, "total_score": -4, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782269244.1067238, "env": 0, "ep": 20, "steps": 3000, "reward": 64.79, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782269324.032424, "env": 0, "ep": 21, "steps": 3000, "reward": 121.801, "total_score": -8, "ending": 0, "truncated": true, "month": 1, "day": 8}
+{"t": 1782269404.082287, "env": 0, "ep": 22, "steps": 3000, "reward": -98.278, "total_score": -123, "ending": 0, "truncated": true, "month": 1, "day": 11}
+{"t": 1782269483.747101, "env": 0, "ep": 23, "steps": 3000, "reward": 9.447, "total_score": -21, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782269559.7336762, "env": 0, "ep": 24, "steps": 3000, "reward": 14.486, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782269637.3190372, "env": 0, "ep": 25, "steps": 3000, "reward": 37.832, "total_score": -13, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782269711.6084785, "env": 0, "ep": 26, "steps": 3000, "reward": 9.698, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782269791.6432958, "env": 0, "ep": 27, "steps": 3000, "reward": 84.37, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782269868.250877, "env": 0, "ep": 28, "steps": 3000, "reward": 89.771, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782269939.8766468, "env": 0, "ep": 29, "steps": 3000, "reward": 29.63, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782270013.9539814, "env": 0, "ep": 30, "steps": 3000, "reward": 251.558, "total_score": -5, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782270087.2928145, "env": 0, "ep": 31, "steps": 3000, "reward": 64.827, "total_score": -5, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782270159.5342793, "env": 0, "ep": 32, "steps": 3000, "reward": -34.811, "total_score": -50, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782270236.259191, "env": 0, "ep": 33, "steps": 3000, "reward": 81.063, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782270314.1132324, "env": 0, "ep": 34, "steps": 3000, "reward": 69.894, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782270410.5132203, "env": 0, "ep": 35, "steps": 3000, "reward": 184.55, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782270477.5113034, "env": 0, "ep": 36, "steps": 3000, "reward": 9.94, "total_score": -6, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782270548.0119483, "env": 0, "ep": 37, "steps": 3000, "reward": 27.863, "total_score": -38, "ending": 0, "truncated": true, "month": 1, "day": 6}
+{"t": 1782270621.4897265, "env": 0, "ep": 38, "steps": 3000, "reward": 11.749, "total_score": -125, "ending": 0, "truncated": true, "month": 1, "day": 7}
+{"t": 1782270694.5232017, "env": 0, "ep": 39, "steps": 3000, "reward": 118.99, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782270764.891164, "env": 0, "ep": 40, "steps": 3000, "reward": 158.9, "total_score": -6, "ending": 0, "truncated": true, "month": 1, "day": 6}
+{"t": 1782270838.508042, "env": 0, "ep": 41, "steps": 3000, "reward": 53.85, "total_score": -87, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782270910.0822499, "env": 0, "ep": 42, "steps": 3000, "reward": 14.833, "total_score": -7, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782270978.8351526, "env": 0, "ep": 43, "steps": 3000, "reward": -93.156, "total_score": -167, "ending": 0, "truncated": true, "month": 1, "day": 11}
+{"t": 1782271046.081923, "env": 0, "ep": 44, "steps": 3000, "reward": 59.824, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782271119.443876, "env": 0, "ep": 45, "steps": 3000, "reward": 130.639, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782271189.9342732, "env": 0, "ep": 46, "steps": 3000, "reward": 59.528, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782271264.4800828, "env": 0, "ep": 47, "steps": 3000, "reward": 39.801, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782271343.1718204, "env": 0, "ep": 48, "steps": 3000, "reward": 42.739, "total_score": -97, "ending": 0, "truncated": true, "month": 1, "day": 11}
+{"t": 1782271422.592447, "env": 0, "ep": 49, "steps": 3000, "reward": 146.813, "total_score": -4, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782271507.9725492, "env": 0, "ep": 50, "steps": 3000, "reward": 24.656, "total_score": -2, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782271578.3286903, "env": 0, "ep": 51, "steps": 3000, "reward": 71.445, "total_score": -5, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782271646.5185244, "env": 0, "ep": 52, "steps": 3000, "reward": 19.314, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782271717.9137216, "env": 0, "ep": 53, "steps": 3000, "reward": 9.344, "total_score": -20, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782271796.9820008, "env": 0, "ep": 54, "steps": 3000, "reward": 72.971, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782271873.708629, "env": 0, "ep": 55, "steps": 3000, "reward": 14.196, "total_score": -2, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782271948.1445668, "env": 0, "ep": 56, "steps": 3000, "reward": 14.372, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782272019.3969755, "env": 0, "ep": 57, "steps": 3000, "reward": -34.545, "total_score": -50, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782272092.1740813, "env": 0, "ep": 58, "steps": 3000, "reward": 15.026, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782272159.9903774, "env": 0, "ep": 59, "steps": 3000, "reward": 10.094, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782272228.8281386, "env": 0, "ep": 60, "steps": 3000, "reward": 59.838, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782272297.3697405, "env": 0, "ep": 61, "steps": 3000, "reward": 9.772, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782272369.9691906, "env": 0, "ep": 62, "steps": 3000, "reward": 14.728, "total_score": -2, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782272441.3895094, "env": 0, "ep": 63, "steps": 3000, "reward": 10.058, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782272511.253029, "env": 0, "ep": 64, "steps": 3000, "reward": 67.805, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782272578.592509, "env": 0, "ep": 65, "steps": 3000, "reward": 83.007, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782272651.3052719, "env": 0, "ep": 66, "steps": 3000, "reward": 59.384, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782272718.1646512, "env": 0, "ep": 67, "steps": 3000, "reward": 20.939, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782272783.2606997, "env": 0, "ep": 68, "steps": 3000, "reward": 21.622, "total_score": -14, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782272846.582817, "env": 0, "ep": 69, "steps": 3000, "reward": -27.011, "total_score": -94, "ending": 0, "truncated": true, "month": 1, "day": 9}
+{"t": 1782272914.9592786, "env": 0, "ep": 70, "steps": 3000, "reward": 10.327, "total_score": -19, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782272982.551579, "env": 0, "ep": 71, "steps": 3000, "reward": 10.112, "total_score": -2, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782273044.835846, "env": 0, "ep": 72, "steps": 3000, "reward": -77.798, "total_score": -90, "ending": 0, "truncated": true, "month": 1, "day": 5}
+{"t": 1782273112.1084986, "env": 0, "ep": 73, "steps": 3000, "reward": 14.986, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782273178.5516841, "env": 0, "ep": 74, "steps": 3000, "reward": 19.872, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782273248.1342041, "env": 0, "ep": 75, "steps": 3000, "reward": 58.836, "total_score": -28, "ending": 0, "truncated": true, "month": 1, "day": 6}
+{"t": 1782273315.021665, "env": 0, "ep": 76, "steps": 3000, "reward": 9.672, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782273389.379322, "env": 0, "ep": 77, "steps": 3000, "reward": 13.626, "total_score": -44, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782273457.7215605, "env": 0, "ep": 78, "steps": 3000, "reward": 14.532, "total_score": -6, "ending": 0, "truncated": true, "month": 1, "day": 8}
+{"t": 1782273532.274074, "env": 0, "ep": 79, "steps": 3000, "reward": 61.287, "total_score": -178, "ending": 0, "truncated": true, "month": 1, "day": 6}
+{"t": 1782273603.5140889, "env": 0, "ep": 80, "steps": 3000, "reward": -1055.894, "total_score": -1127, "ending": 0, "truncated": true, "month": 1, "day": 21}
+{"t": 1782273671.6324892, "env": 0, "ep": 81, "steps": 3000, "reward": 118.784, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782273730.8317742, "env": 0, "ep": 82, "steps": 3000, "reward": 15.098, "total_score": -45, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782273790.8627145, "env": 0, "ep": 83, "steps": 3000, "reward": 60.322, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782273859.0108404, "env": 0, "ep": 84, "steps": 3000, "reward": 101.722, "total_score": -41, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782273924.8589396, "env": 0, "ep": 85, "steps": 3000, "reward": -130.357, "total_score": -153, "ending": 0, "truncated": true, "month": 1, "day": 10}
+{"t": 1782273971.3427823, "env": 0, "ep": 86, "steps": 3000, "reward": 30.772, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782274032.1156404, "env": 0, "ep": 87, "steps": 3000, "reward": 10.142, "total_score": -6, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782274093.7388513, "env": 0, "ep": 88, "steps": 3000, "reward": -81.057, "total_score": -94, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782274152.044825, "env": 0, "ep": 89, "steps": 3000, "reward": -64.142, "total_score": -81, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782274212.5411525, "env": 0, "ep": 90, "steps": 3000, "reward": 10.034, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782274271.8009908, "env": 0, "ep": 91, "steps": 3000, "reward": 71.066, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782274332.4734669, "env": 0, "ep": 92, "steps": 3000, "reward": 10.068, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782274393.831928, "env": 0, "ep": 93, "steps": 3000, "reward": 152.035, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782274456.2887414, "env": 0, "ep": 94, "steps": 3000, "reward": 36.974, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782274518.7698314, "env": 0, "ep": 95, "steps": 3000, "reward": 9.769, "total_score": -9, "ending": 0, "truncated": true, "month": 1, "day": 5}
+{"t": 1782274580.2973595, "env": 0, "ep": 96, "steps": 3000, "reward": -12.116, "total_score": -24, "ending": 0, "truncated": true, "month": 1, "day": 7}
+{"t": 1782274640.8536255, "env": 0, "ep": 97, "steps": 3000, "reward": 10.136, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782274699.5505033, "env": 0, "ep": 98, "steps": 3000, "reward": 10.464, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782274758.6573331, "env": 0, "ep": 99, "steps": 3000, "reward": 10.274, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782274822.8604212, "env": 0, "ep": 100, "steps": 3000, "reward": 72.02, "total_score": -1, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782274884.0850286, "env": 0, "ep": 101, "steps": 3000, "reward": -44.355, "total_score": -78, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782274946.754635, "env": 0, "ep": 102, "steps": 3000, "reward": 184.646, "total_score": -4, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782275006.4500287, "env": 0, "ep": 103, "steps": 3000, "reward": -17.456, "total_score": -53, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782275068.5148485, "env": 0, "ep": 104, "steps": 3000, "reward": 57.61, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782304124.290167, "env": 0, "ep": 105, "steps": 2778, "reward": 47.355, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782304182.8169346, "env": 0, "ep": 106, "steps": 3000, "reward": -55.478, "total_score": -80, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782304226.6457381, "env": 0, "ep": 107, "steps": 3000, "reward": 9.638, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782304286.3578663, "env": 0, "ep": 108, "steps": 3000, "reward": 9.914, "total_score": -18, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782304355.6457477, "env": 0, "ep": 109, "steps": 3000, "reward": 10.032, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782304427.328781, "env": 0, "ep": 110, "steps": 3000, "reward": 15.008, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782304494.0078113, "env": 0, "ep": 111, "steps": 3000, "reward": 10.14, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782304561.1155777, "env": 0, "ep": 112, "steps": 3000, "reward": 15.126, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782304632.5241315, "env": 0, "ep": 113, "steps": 3000, "reward": 34.706, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782304692.3544452, "env": 0, "ep": 114, "steps": 3000, "reward": 23.716, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782304760.6381235, "env": 0, "ep": 115, "steps": 3000, "reward": 19.89, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782304830.5657606, "env": 0, "ep": 116, "steps": 3000, "reward": 24.983, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782304898.733471, "env": 0, "ep": 117, "steps": 3000, "reward": 43.948, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782304966.9748662, "env": 0, "ep": 118, "steps": 3000, "reward": 74.86, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782305036.6422582, "env": 0, "ep": 119, "steps": 3000, "reward": 14.911, "total_score": -1, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782305109.1515005, "env": 0, "ep": 120, "steps": 3000, "reward": 54.762, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782305176.0811846, "env": 0, "ep": 121, "steps": 3000, "reward": -5.269, "total_score": -91, "ending": 0, "truncated": true, "month": 1, "day": 14}
+{"t": 1782305244.1855927, "env": 0, "ep": 122, "steps": 3000, "reward": 11.732, "total_score": -12, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782305307.3736773, "env": 0, "ep": 123, "steps": 3000, "reward": -41.952, "total_score": -54, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782305376.6545892, "env": 0, "ep": 124, "steps": 3000, "reward": 14.972, "total_score": -4, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782305444.0461783, "env": 0, "ep": 125, "steps": 3000, "reward": 26.947, "total_score": -52, "ending": 0, "truncated": true, "month": 1, "day": 8}
+{"t": 1782305512.3936677, "env": 0, "ep": 126, "steps": 3000, "reward": 26.375, "total_score": -8, "ending": 0, "truncated": true, "month": 1, "day": 8}
+{"t": 1782305582.9463124, "env": 0, "ep": 127, "steps": 3000, "reward": 91.236, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782305660.944788, "env": 0, "ep": 128, "steps": 3000, "reward": -1072.038, "total_score": -1101, "ending": 0, "truncated": true, "month": 1, "day": 22}
+{"t": 1782305737.3923602, "env": 0, "ep": 129, "steps": 3000, "reward": 148.738, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782305802.2922919, "env": 0, "ep": 130, "steps": 3000, "reward": 9.691, "total_score": -9, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782305868.6827724, "env": 0, "ep": 131, "steps": 3000, "reward": 30.111, "total_score": -1, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782305932.7287736, "env": 0, "ep": 132, "steps": 3000, "reward": 17.218, "total_score": -4, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782305999.484313, "env": 0, "ep": 133, "steps": 3000, "reward": -38.374, "total_score": -65, "ending": 0, "truncated": true, "month": 1, "day": 6}
+{"t": 1782306065.5699427, "env": 0, "ep": 134, "steps": 3000, "reward": 64.742, "total_score": -2, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782306130.990221, "env": 0, "ep": 135, "steps": 3000, "reward": 111.522, "total_score": -78, "ending": 0, "truncated": true, "month": 1, "day": 6}
+{"t": 1782306195.9325898, "env": 0, "ep": 136, "steps": 3000, "reward": 89.82, "total_score": -89, "ending": 0, "truncated": true, "month": 1, "day": 8}
+{"t": 1782306266.5642345, "env": 0, "ep": 137, "steps": 3000, "reward": 81.644, "total_score": -45, "ending": 0, "truncated": true, "month": 1, "day": 6}
+{"t": 1782306336.3355665, "env": 0, "ep": 138, "steps": 3000, "reward": 472.588, "total_score": -41, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782306398.9726677, "env": 0, "ep": 139, "steps": 3000, "reward": 10.042, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782306466.763135, "env": 0, "ep": 140, "steps": 3000, "reward": 10.352, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782306533.483476, "env": 0, "ep": 141, "steps": 3000, "reward": -40.758, "total_score": -51, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782306596.211499, "env": 0, "ep": 142, "steps": 3000, "reward": 116.95, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782306659.4900272, "env": 0, "ep": 143, "steps": 3000, "reward": 65.22, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782306719.4516466, "env": 0, "ep": 144, "steps": 3000, "reward": 10.344, "total_score": -2, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782306783.2557402, "env": 0, "ep": 145, "steps": 3000, "reward": 0.88, "total_score": -19, "ending": 0, "truncated": true, "month": 1, "day": 6}
+{"t": 1782306843.712726, "env": 0, "ep": 146, "steps": 3000, "reward": 10.166, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782306908.8079278, "env": 0, "ep": 147, "steps": 3000, "reward": -46.688, "total_score": -57, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782306975.3180177, "env": 0, "ep": 148, "steps": 3000, "reward": 10.346, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782307043.9521205, "env": 0, "ep": 149, "steps": 3000, "reward": 19.696, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782307110.0408218, "env": 0, "ep": 150, "steps": 3000, "reward": 9.424, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782307176.225932, "env": 0, "ep": 151, "steps": 3000, "reward": 9.84, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782307246.820369, "env": 0, "ep": 152, "steps": 3000, "reward": -13.251, "total_score": -88, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782307314.8142018, "env": 0, "ep": 153, "steps": 3000, "reward": 9.666, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782307378.1636822, "env": 0, "ep": 154, "steps": 3000, "reward": 14.714, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782307445.0912805, "env": 0, "ep": 155, "steps": 3000, "reward": 9.448, "total_score": -4, "ending": 0, "truncated": true, "month": 1, "day": 6}
+{"t": 1782307507.8143325, "env": 0, "ep": 156, "steps": 3000, "reward": 14.274, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782307575.2289188, "env": 0, "ep": 157, "steps": 3000, "reward": 25.316, "total_score": -13, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782307643.2209363, "env": 0, "ep": 158, "steps": 3000, "reward": 0.58, "total_score": -78, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782307709.6156585, "env": 0, "ep": 159, "steps": 3000, "reward": 9.456, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782307785.9119685, "env": 0, "ep": 160, "steps": 3000, "reward": 67.294, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782307854.1530468, "env": 0, "ep": 161, "steps": 3000, "reward": 19.278, "total_score": -20, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782307933.3553498, "env": 0, "ep": 162, "steps": 3000, "reward": 120.277, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782308003.302325, "env": 0, "ep": 163, "steps": 3000, "reward": -14.933, "total_score": -49, "ending": 0, "truncated": true, "month": 1, "day": 8}
+{"t": 1782308079.784468, "env": 0, "ep": 164, "steps": 3000, "reward": 42.021, "total_score": -24, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782308150.6100552, "env": 0, "ep": 165, "steps": 3000, "reward": 19.213, "total_score": -39, "ending": 0, "truncated": true, "month": 1, "day": 6}
+{"t": 1782308217.8313582, "env": 0, "ep": 166, "steps": 3000, "reward": 64.68, "total_score": -54, "ending": 0, "truncated": true, "month": 1, "day": 8}
+{"t": 1782308281.3035567, "env": 0, "ep": 167, "steps": 3000, "reward": -22.42, "total_score": -43, "ending": 0, "truncated": true, "month": 1, "day": 8}
+{"t": 1782308353.440488, "env": 0, "ep": 168, "steps": 2097, "reward": 31.393, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782308377.7199435, "env": 0, "ep": 169, "steps": 705, "reward": 1.156, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782308437.1842113, "env": 0, "ep": 170, "steps": 3000, "reward": 147.088, "total_score": -3, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782309296.8347728, "env": 0, "ep": 171, "steps": 2700, "reward": 14.34, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782309356.2431128, "env": 0, "ep": 172, "steps": 3000, "reward": -27.51, "total_score": -54, "ending": 0, "truncated": true, "month": 1, "day": 5}
+{"t": 1782309417.7324078, "env": 0, "ep": 173, "steps": 3000, "reward": 9.544, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782309478.2023706, "env": 0, "ep": 174, "steps": 3000, "reward": 9.902, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782309542.4304278, "env": 0, "ep": 175, "steps": 3000, "reward": 19.974, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782309603.3197541, "env": 0, "ep": 176, "steps": 3000, "reward": 10.07, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782309661.6863897, "env": 0, "ep": 177, "steps": 3000, "reward": -90.892, "total_score": -101, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782309729.8368053, "env": 0, "ep": 178, "steps": 3000, "reward": -25.038, "total_score": -42, "ending": 0, "truncated": true, "month": 1, "day": 6}
+{"t": 1782309796.4073086, "env": 0, "ep": 179, "steps": 3000, "reward": 22.053, "total_score": -90, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782309863.56825, "env": 0, "ep": 180, "steps": 3000, "reward": 31.974, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782309942.8081217, "env": 0, "ep": 181, "steps": 3000, "reward": 73.698, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782310011.4402149, "env": 0, "ep": 182, "steps": 3000, "reward": 33.731, "total_score": -49, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782310082.2842824, "env": 0, "ep": 183, "steps": 3000, "reward": 18.988, "total_score": -67, "ending": 0, "truncated": true, "month": 1, "day": 13}
+{"t": 1782310133.874179, "env": 0, "ep": 184, "steps": 3000, "reward": 23.754, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782310199.582716, "env": 0, "ep": 185, "steps": 3000, "reward": -82.962, "total_score": -105, "ending": 0, "truncated": true, "month": 1, "day": 11}
+{"t": 1782310267.68155, "env": 0, "ep": 186, "steps": 3000, "reward": 67.883, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782310335.926747, "env": 0, "ep": 187, "steps": 3000, "reward": 15.973, "total_score": -45, "ending": 0, "truncated": true, "month": 1, "day": 6}
+{"t": 1782310422.5980816, "env": 0, "ep": 188, "steps": 3000, "reward": 22.355, "total_score": -194, "ending": 0, "truncated": true, "month": 1, "day": 21}
+{"t": 1782310488.3171775, "env": 0, "ep": 189, "steps": 3000, "reward": 9.654, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782310562.875162, "env": 0, "ep": 190, "steps": 3000, "reward": 64.356, "total_score": -52, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782310621.9420617, "env": 0, "ep": 191, "steps": 3000, "reward": 4.261, "total_score": -5, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782310703.049098, "env": 0, "ep": 192, "steps": 3000, "reward": 1.462, "total_score": -43, "ending": 0, "truncated": true, "month": 1, "day": 7}
+{"t": 1782310780.8552034, "env": 0, "ep": 193, "steps": 3000, "reward": 19.55, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782310854.2005363, "env": 0, "ep": 194, "steps": 3000, "reward": -63.22, "total_score": -78, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782310921.8872511, "env": 0, "ep": 195, "steps": 3000, "reward": 9.734, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782310989.5367897, "env": 0, "ep": 196, "steps": 3000, "reward": 19.824, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782311061.5444832, "env": 0, "ep": 197, "steps": 3000, "reward": -47.664, "total_score": -77, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782311132.7978427, "env": 0, "ep": 198, "steps": 3000, "reward": 9.764, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782311204.558486, "env": 0, "ep": 199, "steps": 3000, "reward": 36.685, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782311277.913797, "env": 0, "ep": 200, "steps": 3000, "reward": 14.896, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782311348.2206326, "env": 0, "ep": 201, "steps": 3000, "reward": 19.733, "total_score": -15, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782311412.803143, "env": 0, "ep": 202, "steps": 3000, "reward": 9.846, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782311475.9378183, "env": 0, "ep": 203, "steps": 3000, "reward": -10.131, "total_score": -41, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782311540.8461797, "env": 0, "ep": 204, "steps": 3000, "reward": 14.732, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782311603.0474975, "env": 0, "ep": 205, "steps": 3000, "reward": 9.944, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782311668.6799226, "env": 0, "ep": 206, "steps": 3000, "reward": 45.872, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782311731.717828, "env": 0, "ep": 207, "steps": 3000, "reward": 9.888, "total_score": -2, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782311799.0937324, "env": 0, "ep": 208, "steps": 3000, "reward": 41.995, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782311865.8861482, "env": 0, "ep": 209, "steps": 3000, "reward": -26.014, "total_score": -46, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782311932.0646665, "env": 0, "ep": 210, "steps": 3000, "reward": 21.858, "total_score": -13, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782311997.6022558, "env": 0, "ep": 211, "steps": 3000, "reward": 83.864, "total_score": -10, "ending": 0, "truncated": true, "month": 1, "day": 9}
+{"t": 1782312065.9821591, "env": 0, "ep": 212, "steps": 3000, "reward": 65.685, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782312130.8008978, "env": 0, "ep": 213, "steps": 3000, "reward": 80.299, "total_score": -2, "ending": 0, "truncated": true, "month": 1, "day": 5}
+{"t": 1782312193.0953097, "env": 0, "ep": 214, "steps": 3000, "reward": 9.615, "total_score": -1, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782312259.5008173, "env": 0, "ep": 215, "steps": 3000, "reward": 41.68, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782312321.4683423, "env": 0, "ep": 216, "steps": 3000, "reward": 15.15, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782312385.3249376, "env": 0, "ep": 217, "steps": 3000, "reward": 10.143, "total_score": -5, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782312457.4780784, "env": 0, "ep": 218, "steps": 3000, "reward": 35.764, "total_score": -59, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782312522.0651798, "env": 0, "ep": 219, "steps": 3000, "reward": -15.923, "total_score": -27, "ending": 0, "truncated": true, "month": 1, "day": 3}
+{"t": 1782312585.547425, "env": 0, "ep": 220, "steps": 3000, "reward": 10.16, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782312655.0761836, "env": 0, "ep": 221, "steps": 3000, "reward": -36.967, "total_score": -66, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782312716.453535, "env": 0, "ep": 222, "steps": 3000, "reward": -48.16, "total_score": -67, "ending": 0, "truncated": true, "month": 1, "day": 4}
+{"t": 1782312781.5525005, "env": 0, "ep": 223, "steps": 3000, "reward": 35.727, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782313786.9848957, "env": 0, "ep": 1, "steps": 3000, "reward": 28.456, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782313889.0187557, "env": 0, "ep": 2, "steps": 3000, "reward": 27.59, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782314003.5395195, "env": 0, "ep": 3, "steps": 2824, "reward": 55.02, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782314099.0215437, "env": 0, "ep": 4, "steps": 3000, "reward": 25.276, "total_score": -39, "ending": 0, "truncated": true, "month": 1, "day": 5}
+{"t": 1782314601.18335, "env": 0, "ep": 1, "steps": 2882, "reward": 57.17, "total_score": -75, "ending": 0, "truncated": false, "month": 1, "day": 3}
+{"t": 1782315606.1553414, "env": 0, "ep": 1, "steps": 3000, "reward": 45.463, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782315692.3575802, "env": 0, "ep": 2, "steps": 3000, "reward": 28.825, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782315774.0772793, "env": 0, "ep": 3, "steps": 3000, "reward": 48.324, "total_score": 0, "ending": 0, "truncated": true, "month": 1, "day": 1}
+{"t": 1782315852.0062354, "env": 0, "ep": 4, "steps": 3000, "reward": 77.012, "total_score": -14, "ending": 0, "truncated": true, "month": 1, "day": 2}
+{"t": 1782316779.1492982, "env": 0, "ep": 1, "steps": 35363, "reward": 409.595, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782322518.2167478, "env": 0, "ep": 1, "steps": 36690, "reward": 278.433, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782327147.5267181, "env": 0, "ep": 1, "steps": 75000, "reward": 244.279, "total_score": -174, "ending": 0, "truncated": true, "month": 1, "day": 9}
+{"t": 1782327433.7278059, "env": 0, "ep": 2, "steps": 12388, "reward": 35.644, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782329218.0136378, "env": 0, "ep": 1, "steps": 585, "reward": 30.166, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782329389.3775113, "env": 0, "ep": 2, "steps": 3851, "reward": 395.72, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782329433.8127086, "env": 0, "ep": 3, "steps": 1307, "reward": 130.09, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782329464.186671, "env": 0, "ep": 4, "steps": 772, "reward": 101.549, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782329485.2533414, "env": 0, "ep": 5, "steps": 464, "reward": 50.426, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782329497.0080814, "env": 0, "ep": 6, "steps": 64, "reward": 9.702, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782329512.951486, "env": 0, "ep": 7, "steps": 202, "reward": 29.503, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782329573.7384994, "env": 0, "ep": 8, "steps": 2132, "reward": 241.076, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}
+{"t": 1782329612.5820477, "env": 0, "ep": 9, "steps": 1030, "reward": 71.999, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}

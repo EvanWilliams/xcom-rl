@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>X-COM Bridge</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #0d0d0d;
+      --bg2:      #111111;
+      --bg3:      #161616;
+      --border:   #1e1e1e;
+      --g-bright: #00ff44;
+      --g-mid:    #00bb00;
+      --g-dim:    #006600;
+      --g-dark:   #003300;
+      --amber:    #ffaa00;
+      --red:      #ff4444;
+      --sep:      #222222;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--g-mid);
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 14px;
+      padding: 0.65em 1em 1.5em;
+      min-height: 100vh;
+    }
+
+    /* ─── Header ─────────────────────────────────────────── */
+    header {
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      padding-bottom: 0.5em;
+      margin-bottom: 0.65em;
+      border-bottom: 1px solid var(--border);
+    }
+
+    h1 {
+      font-size: 0.9em;
+      color: var(--g-bright);
+      letter-spacing: 0.2em;
+      flex-shrink: 0;
+    }
+
+    #statusbar {
+      font-size: 0.77em;
+      color: var(--g-dark);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .dot { font-size: 0.85em; }
+    .dot-on  { color: var(--g-bright); }
+    .dot-off { color: var(--red); }
+    .sep { margin: 0 0.5em; color: var(--sep); }
+
+    /* ─── Tiles ──────────────────────────────────────────── */
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.4em;
+      margin-bottom: 0.4em;
+    }
+
+    .tile {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      padding: 0.55em 0.75em 0.6em;
+    }
+
+    .tile-label {
+      font-size: 0.67em;
+      color: var(--g-dark);
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+      margin-bottom: 0.18em;
+    }
+
+    .tile-value {
+      font-size: 1.45em;
+      color: var(--g-bright);
+    }
+
+    .tile-sub {
+      font-size: 0.74em;
+      color: var(--g-dim);
+      margin-top: 0.12em;
+    }
+
+    /* ─── Table panels ───────────────────────────────────── */
+    .tables {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.4em;
+    }
+
+    .tpanel {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      padding: 0.5em 0.75em 0.6em;
+      min-height: 9em;
+    }
+
+    .tpanel-label {
+      font-size: 0.67em;
+      color: var(--g-dark);
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
+      margin-bottom: 0.38em;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.82em;
+    }
+
+    th {
+      color: var(--g-dim);
+      text-align: left;
+      padding: 0.1em 0.35em;
+      border-bottom: 1px solid var(--border);
+      font-weight: normal;
+    }
+
+    td {
+      padding: 0.22em 0.35em;
+      border-bottom: 1px solid var(--bg3);
+      max-width: 22em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    tr:last-child td { border-bottom: none; }
+    tr:nth-child(even) td { background: var(--bg3); }
+
+    .col-r { text-align: right; width: 3.8em; }
+
+    .empty { color: var(--g-dark); font-style: italic; }
+
+    /* Aircraft status colours */
+    .s-ready { color: var(--g-mid); }
+    .s-out   { color: var(--amber); }
+    .s-dim   { color: var(--g-dim); }
+
+    /* Mode label colours injected via JS */
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>X-COM BRIDGE</h1>
+  <div id="statusbar">
+    <span class="dot dot-off" id="conn-dot">●</span>
+    <span id="conn-text">Disconnected</span>
+    <span class="sep">|</span>
+    <span id="last-update">—</span>
+    <span class="sep">|</span>
+    Mode:&nbsp;<span id="mode-text">—</span>
+  </div>
+</header>
+
+<!-- ─── Tiles ──────────────────────────────────────────────── -->
+<div class="tiles">
+  <div class="tile">
+    <div class="tile-label">Cash on Hand</div>
+    <div class="tile-value" id="cash">—</div>
+    <div class="tile-sub"  id="stores-value">equip. value: —</div>
+  </div>
+  <div class="tile">
+    <div class="tile-label">Research</div>
+    <div class="tile-value" id="sci-count">—</div>
+    <div class="tile-sub"  id="lab-cap">lab capacity: —</div>
+  </div>
+  <div class="tile">
+    <div class="tile-label">Engineering</div>
+    <div class="tile-value" id="eng-count">—</div>
+    <div class="tile-sub"  id="wksp-cap">workshop capacity: —</div>
+  </div>
+</div>
+
+<!-- ─── Tables ─────────────────────────────────────────────── -->
+<div class="tables">
+  <div class="tpanel">
+    <div class="tpanel-label">Top Soldiers</div>
+    <table>
+      <thead><tr><th>Name</th><th>Armor</th></tr></thead>
+      <tbody id="t-soldiers"></tbody>
+    </table>
+  </div>
+
+  <div class="tpanel">
+    <div class="tpanel-label">Aircraft</div>
+    <table>
+      <thead><tr><th>Craft</th><th>Status</th><th>Base</th></tr></thead>
+      <tbody id="t-aircraft"></tbody>
+    </table>
+  </div>
+
+  <div class="tpanel">
+    <div class="tpanel-label">Research Projects</div>
+    <table>
+      <thead><tr><th>Project</th><th class="col-r">Sci.</th></tr></thead>
+      <tbody id="t-research"></tbody>
+    </table>
+  </div>
+
+  <div class="tpanel">
+    <div class="tpanel-label">Manufacture Projects</div>
+    <table>
+      <thead><tr><th>Project</th><th class="col-r">Eng.</th></tr></thead>
+      <tbody id="t-manufacture"></tbody>
+    </table>
+  </div>
+</div>
+
+<!-- ─── Logic ──────────────────────────────────────────────── -->
+<script>
+(function () {
+'use strict';
+
+/* ── DOM refs ────────────────────────────────────────────── */
+const el = id => document.getElementById(id);
+
+const connDot   = el('conn-dot');
+const connText  = el('conn-text');
+const lastUpd   = el('last-update');
+const modeText  = el('mode-text');
+
+const cashEl    = el('cash');
+const storesEl  = el('stores-value');
+const sciEl     = el('sci-count');
+const labEl     = el('lab-cap');
+const engEl     = el('eng-count');
+const wkspEl    = el('wksp-cap');
+
+const tSoldiers = el('t-soldiers');
+const tAircraft = el('t-aircraft');
+const tResearch = el('t-research');
+const tMfg      = el('t-manufacture');
+
+/* ── Formatters ──────────────────────────────────────────── */
+const fmtMoney = n =>
+  '$' + Number(n).toLocaleString('en-US');
+
+function fmtStr(s) {
+  if (!s) return '—';
+  return s.replace(/^STR_/, '').replace(/_UC$/, '').replace(/_/g, ' ')
+    .split(' ').filter(Boolean)
+    .map(w => w[0].toUpperCase() + w.slice(1).toLowerCase())
+    .join(' ');
+}
+
+const STATUS = {
+  STR_READY:      ['Ready',      's-ready'],
+  STR_OUT:        ['En Route',   's-out'],
+  STR_REFUELLING: ['Refuelling', 's-dim'],
+  STR_REARMING:   ['Rearming',   's-dim'],
+  STR_REPAIRS:    ['Repairing',  's-dim'],
+  STR_LANDED:     ['Landed',     's-dim'],
+};
+
+function fmtStatus(s) {
+  return STATUS[s] ? STATUS[s][0] : fmtStr(s);
+}
+function statusCls(s) {
+  return STATUS[s] ? STATUS[s][1] : 's-dim';
+}
+
+function pad2(n) { return String(n || 0).padStart(2, '0'); }
+function fmtDate(g) {
+  if (!g) return '—';
+  return `${g.year}-${pad2(g.month)}-${pad2(g.day)}  ${pad2(g.hour)}:${pad2(g.minute)}`;
+}
+
+/* ── Table helpers ───────────────────────────────────────── */
+function mkTd(text, cls) {
+  const td = document.createElement('td');
+  td.textContent = text;
+  if (cls) td.className = cls;
+  return td;
+}
+
+function mkRow(cells) {
+  const tr = document.createElement('tr');
+  cells.forEach(c => {
+    if (typeof c === 'string' || typeof c === 'number') {
+      tr.appendChild(mkTd(c));
+    } else {
+      tr.appendChild(mkTd(c.t, c.c));
+    }
+  });
+  return tr;
+}
+
+function emptyRow(colspan, msg) {
+  const tr = document.createElement('tr');
+  const td = document.createElement('td');
+  td.colSpan = colspan;
+  td.className = 'empty';
+  td.textContent = msg || '(none)';
+  tr.appendChild(td);
+  return tr;
+}
+
+function fillTable(tbody, rows, emptyMsg) {
+  tbody.innerHTML = '';
+  if (!rows || rows.length === 0) {
+    tbody.appendChild(emptyRow(tbody.previousElementSibling
+      ? tbody.previousElementSibling.rows[0].cells.length : 2, emptyMsg));
+  } else {
+    rows.forEach(r => tbody.appendChild(mkRow(r)));
+  }
+}
+
+/* ── Metric render ───────────────────────────────────────── */
+function renderMetrics(m) {
+  // Tiles
+  cashEl.textContent   = fmtMoney(m.cash);
+  storesEl.textContent = 'equip. value: ' + fmtMoney(m.stores_sell_value);
+
+  sciEl.textContent  = m.research.scientists + ' free';
+  labEl.textContent  = 'lab capacity: ' + m.research.lab_capacity;
+
+  engEl.textContent  = m.engineering.engineers + ' free';
+  wkspEl.textContent = 'workshop capacity: ' + m.engineering.workshop_capacity;
+
+  // Soldiers
+  fillTable(
+    tSoldiers,
+    m.soldiers.map(s => [s.display, s.armor]),
+    'no soldiers'
+  );
+
+  // Aircraft
+  fillTable(
+    tAircraft,
+    m.aircraft.map(a => [
+      a.display_name,
+      { t: fmtStatus(a.status), c: statusCls(a.status) },
+      a.base,
+    ]),
+    'no aircraft'
+  );
+
+  // Research projects
+  fillTable(
+    tResearch,
+    m.research_projects.map(p => [fmtStr(p.name), { t: p.scientists, c: 'col-r' }]),
+    'none active'
+  );
+
+  // Manufacture projects
+  fillTable(
+    tMfg,
+    m.manufacture_projects.map(p => [fmtStr(p.name), { t: p.engineers, c: 'col-r' }]),
+    'none active'
+  );
+}
+
+/* ── Message handler ─────────────────────────────────────── */
+function handle(obj) {
+  switch (obj.type) {
+
+    case 'state':
+      // In-game timestamp from raw state (arrives just before aggregated)
+      lastUpd.textContent    = fmtDate(obj.game);
+      modeText.textContent   = 'Geoscape';
+      modeText.style.color   = 'var(--g-mid)';
+      break;
+
+    case 'aggregated':
+      // Update all 8 metrics; cash persists through battlescape transitions
+      renderMetrics(obj.metrics);
+      break;
+
+    case 'battle':
+      // Switch mode indicator; leave geoscape tiles intact so cash stays visible
+      const side = obj.side === 0 ? 'XCOM' : 'Alien';
+      modeText.textContent = `Battlescape  T${obj.turn ?? '?'}  ${side}`;
+      modeText.style.color = 'var(--amber)';
+      lastUpd.textContent  = new Date().toLocaleTimeString();
+      break;
+
+    // keepalive: no-op
+  }
+}
+
+/* ── WebSocket + auto-reconnect ──────────────────────────── */
+let delay = 1000;
+
+function connect() {
+  const proto = location.protocol === 'https:' ? 'wss:' : 'ws:';
+  const ws = new WebSocket(`${proto}//${location.host}/ws`);
+
+  ws.onopen = () => {
+    connDot.className    = 'dot dot-on';
+    connText.textContent = 'Connected';
+    delay = 1000;
+  };
+
+  ws.onclose = () => {
+    connDot.className    = 'dot dot-off';
+    connText.textContent = `Disconnected — retry in ${delay / 1000}s`;
+    modeText.textContent = '—';
+    modeText.style.color = '';
+    setTimeout(connect, delay);
+    delay = Math.min(delay * 2, 30_000);
+  };
+
+  ws.onerror = () => ws.close();
+
+  ws.onmessage = e => {
+    try { handle(JSON.parse(e.data)); }
+    catch (err) { console.error('xcom-ws parse error:', err, e.data.slice(0, 120)); }
+  };
+}
+
+connect();
+})();
+</script>
+</body>
+</html>

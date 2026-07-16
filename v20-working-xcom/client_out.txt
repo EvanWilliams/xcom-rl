@@ -1,0 +1,22 @@
+Connecting to: C:\Users\evan\AppData\Local\Temp\openxcom_bridge.sock
+Connected! Waiting for messages (max 20)...
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}
+{"funds":4143000}

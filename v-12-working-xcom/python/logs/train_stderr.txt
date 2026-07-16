@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\Users\evan\AppData\Local\Programs\Python\Python311\Lib\multiprocessing\connection.py", line 328, in _recv_bytes
+    nread, err = ov.GetOverlappedResult(True)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+BrokenPipeError: [WinError 109] The pipe has been ended
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\evan\Documents\Claude Code Stuff\xcom-reinforcement-learning\python\xcom_rl\train_ppo.py", line 320, in <module>
+    train(
+  File "C:\Users\evan\Documents\Claude Code Stuff\xcom-reinforcement-learning\python\xcom_rl\train_ppo.py", line 279, in train
+    model.learn(
+  File "C:\Users\evan\AppData\Local\Programs\Python\Python311\Lib\site-packages\stable_baselines3\ppo\ppo.py", line 311, in learn
