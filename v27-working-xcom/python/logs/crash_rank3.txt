@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "C:\Users\evan\Documents\Claude Code Stuff\xcom-reinforcement-learning\python\xcom_rl\train_ppo.py", line 219, in reset
+    return super().reset(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evan\AppData\Local\Programs\Python\Python311\Lib\site-packages\gymnasium\core.py", line 333, in reset
+    return self.env.reset(seed=seed, options=options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evan\Documents\Claude Code Stuff\xcom-reinforcement-learning\python\xcom_gym\env.py", line 1062, in reset
+    self._launch_with_retry()
+  File "C:\Users\evan\Documents\Claude Code Stuff\xcom-reinforcement-learning\python\xcom_gym\env.py", line 1778, in _launch_with_retry
+    self._launch_engine()
+  File "C:\Users\evan\Documents\Claude Code Stuff\xcom-reinforcement-learning\python\xcom_gym\env.py", line 1844, in _launch_engine
+    raise RuntimeError(f"bridge socket {socket_path!r} did not open within 10s")
+RuntimeError: bridge socket 'C:\\Users\\evan\\AppData\\Local\\Temp\\openxcom_bridge_3.sock' did not open within 10s

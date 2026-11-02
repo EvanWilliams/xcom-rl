@@ -1,0 +1,167 @@
+{
+  "version": 1,
+  "updated_at": "2026-08-14T22:31:40.060754+00:00",
+  "checkpoints": {
+    "checkpoints/xcom_ppo_resumed_final.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_final.zip",
+      "run_name": "resumed_final",
+      "timesteps": 0,
+      "file_size": 514242,
+      "saved_at": "2026-06-28T21:32:47.387038+00:00",
+      "evals": [
+        {
+          "n_episodes": 20,
+          "n_envs": 4,
+          "mean_reward": 154.944,
+          "std_reward": 914.018,
+          "max_reward": 988.0,
+          "min_reward": -1347.719,
+          "win_rate": 0.0,
+          "loss_rate": 0.0,
+          "truncation_rate": 1.0,
+          "mean_month_reached": 2.0,
+          "max_month_reached": 2,
+          "mean_total_score": -478.75,
+          "mean_steps_per_ep": 75000.0,
+          "craft_launch_rate": 0.0,
+          "research_rate": 0.0,
+          "build_rate": 0.0,
+          "shoot_down_rate": 1.0,
+          "alien_base_rate": 0.0,
+          "manufacture_rate": 0.0,
+          "new_base_rate": 0.0,
+          "eval_at": "2026-07-19T06:36:35.288227+00:00",
+          "composite_score": 0.175
+        },
+        {
+          "n_episodes": 20,
+          "n_envs": 4,
+          "mean_reward": 106.45,
+          "std_reward": 893.962,
+          "max_reward": 942.395,
+          "min_reward": -1523.824,
+          "win_rate": 0.0,
+          "loss_rate": 0.0,
+          "truncation_rate": 1.0,
+          "mean_month_reached": 2.0,
+          "max_month_reached": 2,
+          "mean_total_score": -505.0,
+          "mean_steps_per_ep": 75000.0,
+          "craft_launch_rate": 0.0,
+          "research_rate": 0.0,
+          "build_rate": 0.0,
+          "shoot_down_rate": 1.0,
+          "alien_base_rate": 0.0,
+          "manufacture_rate": 0.0,
+          "new_base_rate": 0.0,
+          "eval_at": "2026-08-01T02:37:42.126610+00:00",
+          "composite_score": 0.175
+        }
+      ],
+      "best_composite": 0.175,
+      "best_mean_reward": 154.944
+    },
+    "checkpoints/xcom_ppo_resumed_84465686_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_84465686_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 84465686,
+      "file_size": 6154078,
+      "saved_at": "2026-08-14T22:02:47.337013+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_84475676_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_84475676_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 84475676,
+      "file_size": 6154088,
+      "saved_at": "2026-08-14T22:04:53.459008+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_84485666_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_84485666_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 84485666,
+      "file_size": 6154077,
+      "saved_at": "2026-08-14T22:08:16.652633+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_84495656_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_84495656_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 84495656,
+      "file_size": 6154087,
+      "saved_at": "2026-08-14T22:11:14.338659+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_84505646_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_84505646_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 84505646,
+      "file_size": 6154077,
+      "saved_at": "2026-08-14T22:14:03.966461+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_84515636_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_84515636_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 84515636,
+      "file_size": 6154087,
+      "saved_at": "2026-08-14T22:18:21.302600+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_84525626_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_84525626_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 84525626,
+      "file_size": 6154077,
+      "saved_at": "2026-08-14T22:21:35.058590+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_84535616_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_84535616_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 84535616,
+      "file_size": 6154088,
+      "saved_at": "2026-08-14T22:25:59.222268+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_84545606_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_84545606_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 84545606,
+      "file_size": 6154078,
+      "saved_at": "2026-08-14T22:28:25.261739+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_84555596_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_84555596_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 84555596,
+      "file_size": 6154087,
+      "saved_at": "2026-08-14T22:31:40.059755+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    }
+  },
+  "best_by_composite": "checkpoints/xcom_ppo_resumed_final.zip",
+  "best_by_reward": "checkpoints/xcom_ppo_resumed_final.zip"
+}

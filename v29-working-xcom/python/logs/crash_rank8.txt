@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "C:\Users\evan\Documents\Claude Code Stuff\xcom-reinforcement-learning\python\xcom_rl\train_ppo.py", line 219, in reset
+    return super().reset(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evan\AppData\Local\Programs\Python\Python311\Lib\site-packages\gymnasium\core.py", line 333, in reset
+    return self.env.reset(seed=seed, options=options)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\evan\Documents\Claude Code Stuff\xcom-reinforcement-learning\python\xcom_gym\env.py", line 1126, in reset
+    self._launch_with_retry()
+  File "C:\Users\evan\Documents\Claude Code Stuff\xcom-reinforcement-learning\python\xcom_gym\env.py", line 1913, in _launch_with_retry
+    self._launch_engine()
+  File "C:\Users\evan\Documents\Claude Code Stuff\xcom-reinforcement-learning\python\xcom_gym\env.py", line 2003, in _launch_engine
+    time.sleep(0.1)
+        ^^^^^^^^^^^
+RuntimeError: engine process exited (code 3221226091) before opening bridge socket 'C:\\Users\\evan\\AppData\\Local\\Temp\\openxcom_bridge_8.sock'

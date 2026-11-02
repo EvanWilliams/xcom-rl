@@ -1,2 +1,0 @@
-{"t": 1782157591.4984372, "env": 4, "ep": 1, "steps": 11680, "reward": -126.943, "phase": 0, "total_score": -143, "ending": 0, "truncated": false, "month": 1, "day": 7}
-{"t": 1782157616.5995219, "env": 4, "ep": 2, "steps": 10, "reward": -10.1, "phase": 0, "total_score": 0, "ending": 0, "truncated": false, "month": 1, "day": 1}

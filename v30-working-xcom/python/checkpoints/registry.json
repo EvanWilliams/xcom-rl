@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-29T23:16:19.051283+00:00",
+  "checkpoints": {
+    "checkpoints/xcom_ppo_resumed_final.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_final.zip",
+      "run_name": "resumed_final",
+      "timesteps": 0,
+      "file_size": 514242,
+      "saved_at": "2026-06-28T21:32:47.387038+00:00",
+      "evals": [
+        {
+          "n_episodes": 20,
+          "n_envs": 4,
+          "mean_reward": 154.944,
+          "std_reward": 914.018,
+          "max_reward": 988.0,
+          "min_reward": -1347.719,
+          "win_rate": 0.0,
+          "loss_rate": 0.0,
+          "truncation_rate": 1.0,
+          "mean_month_reached": 2.0,
+          "max_month_reached": 2,
+          "mean_total_score": -478.75,
+          "mean_steps_per_ep": 75000.0,
+          "craft_launch_rate": 0.0,
+          "research_rate": 0.0,
+          "build_rate": 0.0,
+          "shoot_down_rate": 1.0,
+          "alien_base_rate": 0.0,
+          "manufacture_rate": 0.0,
+          "new_base_rate": 0.0,
+          "eval_at": "2026-07-19T06:36:35.288227+00:00",
+          "composite_score": 0.175
+        },
+        {
+          "n_episodes": 20,
+          "n_envs": 4,
+          "mean_reward": 106.45,
+          "std_reward": 893.962,
+          "max_reward": 942.395,
+          "min_reward": -1523.824,
+          "win_rate": 0.0,
+          "loss_rate": 0.0,
+          "truncation_rate": 1.0,
+          "mean_month_reached": 2.0,
+          "max_month_reached": 2,
+          "mean_total_score": -505.0,
+          "mean_steps_per_ep": 75000.0,
+          "craft_launch_rate": 0.0,
+          "research_rate": 0.0,
+          "build_rate": 0.0,
+          "shoot_down_rate": 1.0,
+          "alien_base_rate": 0.0,
+          "manufacture_rate": 0.0,
+          "new_base_rate": 0.0,
+          "eval_at": "2026-08-01T02:37:42.126610+00:00",
+          "composite_score": 0.175
+        }
+      ],
+      "best_composite": 0.175,
+      "best_mean_reward": 154.944
+    },
+    "checkpoints/xcom_ppo_resumed_50222142_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_50222142_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 50222142,
+      "file_size": 6154040,
+      "saved_at": "2026-09-29T03:23:02.317870+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_212703516_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_212703516_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 212703516,
+      "file_size": 6154080,
+      "saved_at": "2026-10-29T23:03:10.916087+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_212713506_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_212713506_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 212713506,
+      "file_size": 6154080,
+      "saved_at": "2026-10-29T23:05:01.235441+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_212723496_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_212723496_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 212723496,
+      "file_size": 6154081,
+      "saved_at": "2026-10-29T23:06:35.506099+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_212733486_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_212733486_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 212733486,
+      "file_size": 6154081,
+      "saved_at": "2026-10-29T23:07:41.952213+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_212743476_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_212743476_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 212743476,
+      "file_size": 6154090,
+      "saved_at": "2026-10-29T23:09:01.173269+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_212753466_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_212753466_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 212753466,
+      "file_size": 6154081,
+      "saved_at": "2026-10-29T23:10:14.261641+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_212763456_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_212763456_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 212763456,
+      "file_size": 6154080,
+      "saved_at": "2026-10-29T23:11:44.486689+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_212773446_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_212773446_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 212773446,
+      "file_size": 6154089,
+      "saved_at": "2026-10-29T23:13:22.447515+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_212783436_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_212783436_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 212783436,
+      "file_size": 6154081,
+      "saved_at": "2026-10-29T23:14:48.863775+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    },
+    "checkpoints/xcom_ppo_resumed_212793426_steps.zip": {
+      "path": "checkpoints/xcom_ppo_resumed_212793426_steps.zip",
+      "run_name": "resumed",
+      "timesteps": 212793426,
+      "file_size": 6154081,
+      "saved_at": "2026-10-29T23:16:19.050283+00:00",
+      "evals": [],
+      "best_composite": null,
+      "best_mean_reward": null
+    }
+  },
+  "best_by_composite": "checkpoints/xcom_ppo_resumed_final.zip",
+  "best_by_reward": "checkpoints/xcom_ppo_resumed_final.zip"
+}

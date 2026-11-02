@@ -1,0 +1,48 @@
+start() called, path=openxcom_bridge.sock
+resolved path=C:\Users\evan\AppData\Local\Temp\openxcom_bridge.sock
+WSAStartup: 0
+socket(): ok (err=183)
+sun_path set to: C:\Users\evan\AppData\Local\Temp\openxcom_bridge.sock
+bind(): 0 (err=183)
+listen(): 0 (err=183)
+bridge started ok
+start() called, path=openxcom_bridge.sock
+resolved path=C:\Users\evan\AppData\Local\Temp\openxcom_bridge.sock
+WSAStartup: 0
+socket(): ok (err=183)
+sun_path set to: C:\Users\evan\AppData\Local\Temp\openxcom_bridge.sock
+bind(): 0 (err=183)
+listen(): 0 (err=183)
+bridge started ok
+start() called, path=openxcom_bridge.sock
+resolved path=C:\Users\evan\AppData\Local\Temp\openxcom_bridge.sock
+WSAStartup: 0
+socket(): ok (err=183)
+sun_path set to: C:\Users\evan\AppData\Local\Temp\openxcom_bridge.sock
+bind(): 0 (err=183)
+listen(): 0 (err=183)
+bridge started ok
+start() called, path=openxcom_bridge.sock
+resolved path=C:\Users\evan\AppData\Local\Temp\openxcom_bridge.sock
+WSAStartup: 0
+socket(): ok (err=183)
+sun_path set to: C:\Users\evan\AppData\Local\Temp\openxcom_bridge.sock
+bind(): 0 (err=183)
+listen(): 0 (err=183)
+bridge started ok
+start() called, path=openxcom_bridge.sock
+resolved path=C:\Users\evan\AppData\Local\Temp\openxcom_bridge.sock
+WSAStartup: 0
+socket(): ok (err=183)
+sun_path set to: C:\Users\evan\AppData\Local\Temp\openxcom_bridge.sock
+bind(): 0 (err=183)
+listen(): 0 (err=183)
+bridge started ok
+start() called, path=openxcom_bridge.sock
+resolved path=C:\Users\evan\AppData\Local\Temp\openxcom_bridge.sock
+WSAStartup: 0
+socket(): ok (err=183)
+sun_path set to: C:\Users\evan\AppData\Local\Temp\openxcom_bridge.sock
+bind(): 0 (err=183)
+listen(): 0 (err=183)
+bridge started ok

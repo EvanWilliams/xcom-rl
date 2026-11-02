@@ -1,0 +1,21 @@
+[demo_collector] Collecting 200 prefill episodes …
+  prefill: 20/200 episodes  records=20
+  prefill: 40/200 episodes  records=40
+  prefill: 60/200 episodes  records=60
+  prefill: 80/200 episodes  records=80
+  prefill: 100/200 episodes  records=100
+  prefill: 120/200 episodes  records=120
+  prefill: 140/200 episodes  records=140
+  prefill: 160/200 episodes  records=160
+  prefill: 180/200 episodes  records=180
+  prefill: 200/200 episodes  records=200
+[demo_collector] Collecting 20 scan episodes (max 100 steps each) …
+  scan: 5/20 episodes  records=500
+  scan: 10/20 episodes  records=1000
+  scan: 15/20 episodes  records=1500
+  scan: 20/20 episodes  records=2000
+
+[demo_collector] Done in 496.2s
+  total records : 2200
+  action counts : {0: 2142, 1: 58, 2: 0}
+  saved to      : C:\Users\evan\Documents\Claude Code Stuff\xcom-reinforcement-learning\python\data\demos.jsonl
