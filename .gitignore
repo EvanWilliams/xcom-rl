@@ -3,7 +3,7 @@
 
 # PPO checkpoint snapshots (hundreds of ~6MB zips per version)
 *_steps.zip
-xcom_ppo_resumed_final.zip
+
 
 # Large training logs
 **/python/logs/*.jsonl
